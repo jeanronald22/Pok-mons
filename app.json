@@ -1,5 +1,11 @@
 {
   "expo": {
+    "fonts":[
+      {
+        "fontFamily":"Pokemon-Solid",
+        "src":"./assets/fonts/Pokemon-Solid.ttf"
+      }
+    ],
     "name": "Pokemons",
     "slug": "Pokemons",
     "version": "1.0.0",

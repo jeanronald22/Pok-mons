@@ -16,13 +16,8 @@ const HomeScreen = () => {
       style={styles.backgroundImage}
     >
       <View style={styles.container}>
-        {/* Titre */}
         <Text style={styles.title}>Mon Pokédex</Text>
-
-        {/* Sous-titre */}
         <Text style={styles.subtitle}>Attrapez-les tous !</Text>
-
-        {/* Conteneur pour le bouton en bas */}
         <View style={styles.bottomContainer}>
           <Button
             onPress={handlePress}
@@ -51,7 +46,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 48,
-    fontFamily: 'Pokemon-Solid',
+    fontFamily: 'Pokemon-Hollow',
     color: '#FFA500',
     textShadowColor: '#2A75BB',
     textShadowOffset: { width: -3, height: -2 },
