@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, ImageBackground, Dimensions } from 'react-native';
 import Button from '../components/ui/Button';
 

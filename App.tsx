@@ -3,6 +3,7 @@ import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import HomeScreen from './app/HomeScreen';
 import { useEffect, useState } from 'react';
 import * as Font from 'expo-font';
+import Pokemons from './app/PokemonsList';
 
 export default function App() {
 	const [fontLoaded, setFontLoaded] = useState(false)
@@ -27,7 +28,8 @@ export default function App() {
 	}
 	return (
 		<View style={styles.container}>
-			<HomeScreen />
+			{/* <HomeScreen /> */}
+			<Pokemons/>
 			<StatusBar style="inverted" />
 		</View>
 	);
@@ -38,7 +40,6 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		backgroundColor: '#fff',
-		alignItems: 'center',
 		justifyContent: 'center',
 	},
 });
